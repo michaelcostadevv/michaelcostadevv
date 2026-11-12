@@ -1,82 +1,56 @@
-## Hi there 
+# Olá, eu sou o Michael Costa 👋
 
-# 👋 Olá! Eu sou Michael Costa
+**Desenvolvedor Back-end Java** · Estudante de Engenharia de Software (UniFatecie) · Salvador, BA
 
-🎓 Estudante de **Engenharia de Software**  
-💻 Focado em **Desenvolvimento Backend com Java**  
-📍 Salvador, Bahia  
-🚀 Em busca da minha primeira oportunidade na área de Tecnologia
+Construo APIs REST com **Java e Spring Boot**, da modelagem do banco ao deploy em containers, com testes e CI. Também crio sites e landing pages para pequenos negócios.
 
-## 👨‍💻 Sobre mim
+🎯 Busco minha primeira oportunidade como **Desenvolvedor Java Júnior ou Estagiário back-end** (presencial em Salvador, híbrido ou remoto).
 
-Atualmente estou construindo minha base em desenvolvimento Backend, estudando e aplicando conceitos de **Java, Programação Orientada a Objetos, MySQL, JDBC e Git/GitHub**.
-
-Gosto de aprender através da prática e venho desenvolvendo projetos próprios para transformar os conceitos estudados em aplicações reais.
-
-Meu principal projeto atualmente é o **MarketCore**, um sistema de e-commerce que utilizo para evoluir meus conhecimentos em Backend e arquitetura de software.
-
-## 🛠️ Tecnologias
-
-- ☕ Java
-- 🗄️ MySQL
-- 🔌 JDBC
-- 📦 Maven
-- 🌱 Git
-- 🐙 GitHub
-- 💡 Programação Orientada a Objetos
-
-## 🚀 Projeto em destaque
-
-### 🛒 MarketCore
-
-Sistema de e-commerce desenvolvido em **Java**, criado como projeto contínuo de estudos em Backend.
-
-O projeto trabalha conceitos como:
-
-- Cadastro e gerenciamento de clientes
-- Gerenciamento de produtos
-- Carrinho de compras
-- Criação e gerenciamento de pedidos
-- Controle de estoque
-- Regras de negócio
-- Tratamento de exceções
-- Persistência de dados com JDBC
-- Banco de dados MySQL
-- Organização em camadas
-
-O objetivo é continuar evoluindo o projeto conforme avanço nos estudos.
-
-### 📌 Próximas evoluções
-
-`JUnit` → `Spring Boot` → `API REST` → `JPA/Hibernate` → `Autenticação` → `Docker`
-
-## 📚 Atualmente estudando
-
-- Java Backend
-- MySQL
-- Estrutura e arquitetura de aplicações
-- Git e GitHub
-- Engenharia de Software
-
-## 🎯 Objetivo
-
-Busco minha **primeira oportunidade em Tecnologia**, onde eu possa aplicar meus conhecimentos, aprender com desenvolvedores mais experientes e continuar evoluindo como desenvolvedor Backend.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-michaelcostadevv-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michaelcostadevv/)
 
 ---
 
-⭐ Construindo projetos, estudando e evoluindo um commit de cada vez.
+## 🛠️ Stack
 
-<!--
-**michaelcostadevv/michaelcostadevv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **Back-end:** Java 17/21 · Spring Boot · Spring Security · JWT · Spring Data JPA / Hibernate · Bean Validation
+- **Banco de dados:** MySQL · PostgreSQL · H2 · SQL · JDBC
+- **Testes e qualidade:** JUnit 5 · Mockito · AssertJ · MockMvc · GitHub Actions (CI)
+- **Infra e ferramentas:** Docker · Docker Compose · Maven · Git · Postman · Swagger/OpenAPI
+- **Front-end:** React · TypeScript · HTML · CSS · JavaScript · Vercel
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Projetos em destaque
+
+### 🛒 [MarketCore API](https://github.com/michaelcostadevv/MarketCore-Spring) — Java 21 · Spring Boot · MySQL · Docker
+
+API REST de e-commerce que simula um ambiente real de vendas.
+
+- Autenticação **JWT** stateless com **Spring Security** e papéis USER/ADMIN
+- Autorização por objeto: cada cliente só acessa os próprios pedidos (proteção contra IDOR/BOLA)
+- Baixa de estoque na mesma transação do pedido + **lock otimista** contra venda acima do estoque
+- Ciclo de vida do pedido com devolução ao estoque no cancelamento
+- Testes com JUnit 5, Mockito e MockMvc, **CI no GitHub Actions**, Docker Compose e Swagger
+
+Front-end em React + TypeScript: [MarketCore-Web](https://github.com/michaelcostadevv/MarketCore-Web)
+
+### 🏢 [Sistema Gerencial (ERP)](https://github.com/michaelcostadevv/Sistema-Gerencial) — Spring Boot · PostgreSQL
+
+API REST de ERP para clientes, produtos e pedidos, com cálculo de total no servidor, preço congelado no item, `@Transactional`, lock otimista, `@EntityGraph` contra N+1 e testes com JUnit e Mockito.
+
+### 💬 [Assistente de Compromissos](https://github.com/michaelcostadevv/assistente-wpp-pessoal) — Spring Boot · JWT · PostgreSQL
+
+API com cadastro e login via JWT para registrar compromissos e um agendador (`@Scheduled`) que envia lembretes por uma integração de WhatsApp.
+
+### 💅 [Landing page Alanda Melo Studio](https://github.com/michaelcostadevv/alanda-melo-studio) — HTML · CSS · JavaScript
+
+Site real de um estúdio de manicure em Salvador, publicado na Vercel: **[alanda-melo-studio.vercel.app](https://alanda-melo-studio.vercel.app)**
+
+---
+
+## 📈 Evolução
+
+`Java + POO` → `JDBC + MySQL` ([MarketCore v1](https://github.com/michaelcostadevv/MarketCore)) → `Spring Boot + JPA` → `API REST` → `Spring Security + JWT` → `Testes + CI` → `Docker` → `React`
+---
+
+📫 Me chame no [LinkedIn](https://www.linkedin.com/in/michaelcostadevv/). Estou aberto a vagas, conversas e feedback sobre os projetos.
